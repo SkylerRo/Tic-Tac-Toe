@@ -1,0 +1,31 @@
+
+
+#gameBoard {
+    font-family: "Permanent Marker";
+    text-align: center;
+    
+}
+
+#gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+
+#status {
+    text-align: center;
+    font-family: "Permanent Marker";
+}
